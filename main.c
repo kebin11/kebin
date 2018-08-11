@@ -1,3 +1,5 @@
-int main() {
+int main()
+{
+	printf("hello");
 	return 0;
 }
