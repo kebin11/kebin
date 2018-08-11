@@ -6,12 +6,12 @@ int main()
 
   for (int y = 0; y < 5; y++)
   {
-    for (int x = y + 1; x < 5 - y; x++)
+    for (int x = 0; x < 5 - y - 1; x++)
     {
-      if (data[y] > data[x])
+      if (data[x] > data[x + 1])
       {
-        temp = data[y];
-        data[y] = data[x];
+        temp = data[x + 1];
+        data[x + 1] = data[x];
         data[x] = temp;
       }
     }
