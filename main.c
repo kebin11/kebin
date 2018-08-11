@@ -1,6 +1,5 @@
 int main()
 {
-	printf("5 2 1 4 3");
-	printf("sorting program");
+	int data[5] = {0};
 	return 0;
 }
